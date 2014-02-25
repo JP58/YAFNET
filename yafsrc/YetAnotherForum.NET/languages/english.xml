@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xml="http://www.w3.org/XML/1998/namespace" language="English" code="en">
  <page name="ACTIVELOCATION">
   <Resource tag="ACTIVEUSERS">Views Active Users list</Resource>
@@ -724,7 +724,7 @@
   <Resource tag="PASS_REQUIREMENT">{0} minimum length. {1} minimum non-alphanumeric characters ($#@!).</Resource>
   <Resource tag="PASSWORD_REQUIREMENTS">Membership Password Requirements:</Resource>
   <Resource tag="REMOVE_POINTS">Remove Points:</Resource>
-  <Resource tag="REPORT_USER">Report User as BOT to StopForumSpam.com</Resource>
+  <Resource tag="REPORT_USER">Report to StopForumSpam.com</Resource>
   <Resource tag="REPORT_USER_CONFIRM">Report User Name, Email Address and IP Address to StopForumSpam.com as BOT?</Resource>
   <Resource tag="RESET_PASS">Reset Password</Resource>
   <Resource tag="SET_POINTS">Set Points:</Resource>
@@ -893,7 +893,7 @@
   <Resource tag="ALLOW_FORUMS_DUPLICATENAME">Allow Forums With Same Name:</Resource>
   <Resource tag="ALLOW_FORUMS_DUPLICATENAME_HELP">If checked forums with duplicated names can be created.</Resource>
   <Resource tag="ALLOW_GRAVATARS">Allow Gravatars:</Resource>
-  <Resource tag="ALLOW_GRAVATARS_HELP">Automatically use users Gavatars if they exist (note: may require additional processing).</Resource>
+  <Resource tag="ALLOW_GRAVATARS_HELP">Automatically use users Gravatars if they exist (note: may require additional processing).</Resource>
   <Resource tag="ALLOW_GUESTS_VIEWPOLL">Allow Guests View Poll Options:</Resource>
   <Resource tag="ALLOW_GUESTS_VIEWPOLL_HELP">If enabled Guests can see poll choices.</Resource>
   <Resource tag="ALLOW_HIDE_POLLRESULTS">Allow Users Hide Poll Results:</Resource>
@@ -951,7 +951,8 @@
   <Resource tag="BOT_CHECK_ONREGISTER">Handling of Bots during Registration:</Resource>
   <Resource tag="BOT_CHECK_ONREGISTER_HELP">If enabled it detects Spammers during the Registration, you can set to Block that user or simply log it and send a Message to the Admins.</Resource>
   <Resource tag="BOT_IPBAN_ONREGISTER">Automatically Ban Ip Address of Detected Bot:</Resource>
-  <Resource tag="BOT_IPBAN_ONREGISTER_HELP">If enabled and a Bot is detected during registration, and if bot handling is set to reject Registration, the IP Address of the Bot is automatically banned.</Resource><Resource tag="BOTSCOUT_KEY">BotScout.com API Key:</Resource>
+  <Resource tag="BOT_IPBAN_ONREGISTER_HELP">If enabled and a Bot is detected during registration, and if bot handling is set to reject Registration, the IP Address of the Bot is automatically banned.</Resource>
+  <Resource tag="BOTSCOUT_KEY">BotScout.com API Key:</Resource>
   <Resource tag="BOTSCOUT_KEY_HELP">To Use the BotScout Bot Service you need an API Key &lt;a href="http://botscout.com/getkey.htm"&gt;Sign Up here&lt;a&gt;</Resource>
   <Resource tag="CAPTCHA_FOR_REGISTER">Enable CAPTCHA/reCAPTCHA for Register:</Resource>
   <Resource tag="CAPTCHA_FOR_REGISTER_HELP">Require users to enter the CAPTCHA when they register for the forum.</Resource>
@@ -1003,6 +1004,8 @@
   <Resource tag="ENABLE_HOVERCARDS">Enable User Info Hover Cards:</Resource>
   <Resource tag="ENABLE_HOVERCARDS_HELP">If enabled it shows an Hover Card (Which shows some quick info about the user) when you hover an user name. This will also show an Hover Card on the Twitter &amp; Facebook Profile Button.
      </Resource>
+
+
   <Resource tag="ENABLE_LOCATIONPATH_ERRORS">Enable Active Location Error Log:</Resource>
   <Resource tag="ENABLE_LOCATIONPATH_ERRORS_HELP">If checked, all active location path errors are logged.</Resource>
   <Resource tag="ENABLE_RETWEET_MSG">Enable Retweet Message Button:</Resource>
@@ -1860,26 +1863,26 @@
   <Resource tag="BUTTON_MOVE_TT">Move this Post</Resource>
   <Resource tag="BUTTON_MOVETOPIC">Move Topic</Resource>
   <Resource tag="BUTTON_MOVETOPIC_TT">Move this topic</Resource>
-  <Resource tag="BUTTON_MULTI_QUOTE">Multi-Quote</Resource>
-  <Resource tag="BUTTON_MULTI_QUOTE_TT">Multi-Quote this Message</Resource>
+  <Resource tag="BUTTON_MULTI_QUOTE">Add to quote</Resource>
+  <Resource tag="BUTTON_MULTI_QUOTE_TT">Quote this Message to your final reply</Resource>
   <Resource tag="BUTTON_NEWPM">New PM</Resource>
   <Resource tag="BUTTON_NEWPM_TT">Create a new private message</Resource>
   <Resource tag="BUTTON_NEWTOPIC">New Topic</Resource>
   <Resource tag="BUTTON_NEWTOPIC_TT">Post a new topic in this forum</Resource>
   <Resource tag="BUTTON_POSTREPLY">Post Reply</Resource>
   <Resource tag="BUTTON_POSTREPLY_TT">Post a reply to this topic</Resource>
-  <Resource tag="BUTTON_QUOTE">Quote</Resource>
+  <Resource tag="BUTTON_QUOTE">Reply with Quote</Resource>
   <Resource tag="BUTTON_QUOTE_TT">Reply with Quote</Resource>
   <Resource tag="BUTTON_REPLY">Reply</Resource>
   <Resource tag="BUTTON_REPLY_TT">Reply to message</Resource>
   <Resource tag="BUTTON_RESETCOVER">Remove Cover</Resource>
   <Resource tag="BUTTON_RETWEET">Retweet</Resource>
-  <Resource tag="BUTTON_RETWEET_TT">Retweet this Message</Resource>
+  <Resource tag="BUTTON_RETWEET_TT">Retweet this Message on your Twitter</Resource>
   <Resource tag="BUTTON_SETCOVER">Set as Cover</Resource>
   <Resource tag="BUTTON_TAGFAVORITE">Tag as favorite</Resource>
   <Resource tag="BUTTON_TAGFAVORITE_TT">Tag this topic as a favorite.</Resource>
-  <Resource tag="BUTTON_THANKS">Thank</Resource>
-  <Resource tag="BUTTON_THANKS_TT">Thank the post sender</Resource>
+  <Resource tag="BUTTON_THANKS">Thank/Like</Resource>
+  <Resource tag="BUTTON_THANKS_TT">Thank/Like this useful post</Resource>
   <Resource tag="BUTTON_THANKSDELETE">Remove Thank</Resource>
   <Resource tag="BUTTON_THANKSDELETE_TT">Remove your thank note from the post sender</Resource>
   <Resource tag="BUTTON_UNDELETE">Undelete</Resource>
@@ -1905,8 +1908,8 @@
   <Resource tag="BBCODE_QUOTEPOSTED">Originally Posted by: {0}</Resource>
   <Resource tag="BBCODE_QUOTEPOSTED_TT">Go to Quoted Post</Resource>
   <Resource tag="BBCODE_QUOTEWROTE">{0} wrote:</Resource>
-  <Resource tag="CAL_JQ_CULTURE"></Resource>
-  <Resource tag="CAL_JQ_CULTURE_DFORMAT">MM/dd/YY</Resource>
+  <Resource tag="CAL_JQ_CULTURE">en-GB</Resource>
+  <Resource tag="CAL_JQ_CULTURE_DFORMAT">DD/MM/YY</Resource>
   <Resource tag="CAL_JQ_TT">Click here to choose date</Resource>
   <Resource tag="CAN_DELETE">You [b]can[/b] delete your posts in this forum.</Resource>
   <Resource tag="CAN_EDIT">You [b]can[/b] edit your posts in this forum.</Resource>
@@ -1949,7 +1952,8 @@
   <Resource tag="GOTOLASTPAGE_TT">Go to last page</Resource>
   <Resource tag="GOTONEXTPAGE_TT">Next Page</Resource>
   <Resource tag="GOTOPAGE_HEADER">Go to Page...</Resource>
-  <Resource tag="GOTOPOST_ТТ">Go to message</Resource>
+  <Resource tag="GOTOPOST_??">Go to message</Resource>
+  <Resource tag="GOTOPOST_TT">Go to message</Resource>
   <Resource tag="GOTOPREVPAGE_TT">Prev Page</Resource>
   <Resource tag="HIDDEN">Hidden</Resource>
   <Resource tag="HTMLTAG_FORBIDDEN">Your input data should not contain HTML tags.</Resource>
@@ -2221,6 +2225,7 @@
   <Resource tag="RU">Russian Federation</Resource>
   <Resource tag="RW">Rwanda</Resource>
   <Resource tag="SA">Saudi Arabia</Resource>
+  <Resource tag="SX">Scotland</Resource>
   <Resource tag="SB">Solomon Islands</Resource>
   <Resource tag="SC">Seychelles</Resource>
   <Resource tag="SD">Sudan</Resource>
@@ -2359,7 +2364,7 @@
   <Resource tag="BAD_MSN">You have entered an invalid e-mail address for your MSN account.</Resource>
   <Resource tag="BAD_WEBLOG">You have entered an invalid address for your weblog.</Resource>
   <Resource tag="BAD_XMPP">You have entered an invalid name for your XMPP account.</Resource>
-  <Resource tag="BIRTHDAY">Birthday</Resource>
+  <Resource tag="BIRTHDAY">Birthday  (DD/MM/YYYY format)</Resource>
   <Resource tag="CHANGE_EMAIL">Change Email Address</Resource>
   <Resource tag="CITY">City:</Resource>
   <Resource tag="COUNTRY">Country:</Resource>
@@ -2502,15 +2507,15 @@
   <Resource tag="WARN_SELECTTOPICS">Please select topics to unwatch first.</Resource>
  </page>
  <page name="DEFAULT">
-  <Resource tag="ACTIVE_DISCUSSIONS">Active Discussions</Resource>
+  <Resource tag="ACTIVE_DISCUSSIONS">Recent Active Discussions</Resource>
   <Resource tag="ACTIVE_USERS">Active Users</Resource>
   <Resource tag="ACTIVE_USERS_COUNT1">{0:N0} active user</Resource>
   <Resource tag="ACTIVE_USERS_COUNT2">{0:N0} active users</Resource>
   <Resource tag="ACTIVE_USERS_GUESTS1">{0:N0} guest</Resource>
   <Resource tag="ACTIVE_USERS_GUESTS2">{0:N0} guests</Resource>
   <Resource tag="ACTIVE_USERS_HIDDEN">{0:N0} hidden</Resource>
-  <Resource tag="ACTIVE_USERS_MEMBERS1">{0:N0} member</Resource>
-  <Resource tag="ACTIVE_USERS_MEMBERS2">{0:N0} members</Resource>
+  <Resource tag="ACTIVE_USERS_MEMBERS1">{0:N0} marklin-user</Resource>
+  <Resource tag="ACTIVE_USERS_MEMBERS2">{0:N0} marklin-users</Resource>
   <Resource tag="ACTIVE_USERS_TIME">for last {0:N0} minutes</Resource>
   <Resource tag="ALPHABET_FILTER">Alphabet filter</Resource>
   <Resource tag="ATOMICONTOOLTIPACTIVE">Subscribe to active topics via Atom.</Resource>
@@ -2522,8 +2527,8 @@
   <Resource tag="ERROR_HOVERCARD">Sorry, no data found or something went wrong.</Resource>
   <Resource tag="ERROR_TWIT_HOVERCARD">Invalid username or you have exceeded Twitter request limit.&lt;br/&gt;&lt;small&gt;Please note, Twitter only allows 150 requests per hour.&lt;/small&gt;.</Resource>
   <Resource tag="FORUM">Forum</Resource>
-  <Resource tag="GO_LAST_POST">Go to last post</Resource>
-  <Resource tag="GO_LASTUNREAD_POST">Go to first unread</Resource>
+  <Resource tag="GO_LAST_POST">Go to last post in this topic</Resource>
+  <Resource tag="GO_LASTUNREAD_POST">Go to first unread post in this topic</Resource>
   <Resource tag="IN">in {0}</Resource>
   <Resource tag="INFORMATION">Information</Resource>
   <Resource tag="LAST_VISIT">Your last visit: {0}.</Resource>
@@ -2548,9 +2553,9 @@
   <Resource tag="SHOW_UNREAD_ONLY">Show only Unread Topics.</Resource>
   <Resource tag="STATS">Statistics</Resource>
   <Resource tag="STATS_BIRTHDAYS">Today's Birthdays: </Resource>
-  <Resource tag="STATS_LASTMEMBER">The newest member is</Resource>
+  <Resource tag="STATS_LASTMEMBER">The newest marklin-user is</Resource>
   <Resource tag="STATS_LASTPOST">Last post {0} by</Resource>
-  <Resource tag="STATS_MEMBERS">We have {0:N0} registered members.</Resource>
+  <Resource tag="STATS_MEMBERS">We have {0:N0} registered marklin-users.</Resource>
   <Resource tag="STATS_POSTS">There are {0:N0} posts in {1:N0} topics in {2:N0} forums.</Resource>
   <Resource tag="TOPICS">Topics</Resource>
   <Resource tag="UNREAD0">You have {0} unread messages in your inbox.</Resource>
@@ -4433,8 +4438,8 @@ Spoiler Content
   <Resource tag="THANKSFROM">Thanks: {0} times</Resource>
   <Resource tag="THANKSFROM_FEM">Thanks: {0} times</Resource>
   <Resource tag="THANKSFROM_MUSC">Thanks: {0} times</Resource>
-  <Resource tag="THANKSINFO">{0} users thanked {1} for this useful post.</Resource>
-  <Resource tag="THANKSINFOSINGLE">1 user thanked {0} for this useful post.</Resource>
+  <Resource tag="THANKSINFO">{0} users liked this great post by {1}</Resource>
+  <Resource tag="THANKSINFOSINGLE">1 user liked this great post by {0}</Resource>
   <Resource tag="THANKSTO">Was thanked: {0} time(s) in {1} post(s)</Resource>
   <Resource tag="THREADED">Threaded</Resource>
   <Resource tag="TIP_DELETE_TOPIC">Delete this topic</Resource>
@@ -4665,7 +4670,7 @@ Spoiler Content
   <Resource tag="ALREADY_REGISTERED_DISPLAYNAME">Your display name is already registered.</Resource>
   <Resource tag="BAD_EMAIL">You have entered an illegal email address.</Resource>
   <Resource tag="BAD_PASSWORD">Please pick a more complex password that includes punctuation (!?) or numbers.</Resource>
-  <Resource tag="BOT_MESSAGE">Sorry Spammers are not allowed in the Forum!</Resource>
+  <Resource tag="BOT_MESSAGE">We don't like spammers or bots here...</Resource>
   <Resource tag="CONFIRM_PASSWORD">Confirm Password</Resource>
   <Resource tag="CONTINUE">Continue</Resource>
   <Resource tag="CREATE_USER">Create User</Resource>
@@ -5019,7 +5024,7 @@ Visit {forumname} at {forumlink}
  <page name="TIMEZONES">
   <Resource tag="NAME_UTC">(UTC)</Resource>
   <Resource tag="UTC0">(UTC) Casablanca, Dublin, Edinburgh, London, Lisbon, Monrovia</Resource>
-  <Resource tag="UTC1">(UTC+1:00) Berlin, Brussels, Kristiansund, Madrid, Paris, Rome, Warsaw</Resource>
+  <Resource tag="UTC1">(UTC+1:00) Lund, Berlin, Brussels, Kristiansund, Madrid, Paris, Rome, Warsaw</Resource>
   <Resource tag="UTC-1">(UTC-1:00) Azores, Cape Verde Islands</Resource>
   <Resource tag="UTC10">(UTC+10:00) Melbourne, Papua New Guinea, Sydney, Vladivostok</Resource>
   <Resource tag="UTC-10">(UTC-10:00) Hawaii</Resource>
